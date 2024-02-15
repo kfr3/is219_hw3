@@ -9,10 +9,10 @@ def test_subtraction():
     '''Test that addition function works '''    
     assert Calculator.subtract(2,2) == 0
 
-def test_multiply():
-    '''Test that multiplication function works '''
-    assert Calculator.multiply(2,1) == 2
-
 def test_divide():
-    '''Test that division function works'''
+    '''Test that division function works '''    
     assert Calculator.divide(2,2) == 1
+
+def test_multiply():
+    '''Test that multiply function works '''    
+    assert Calculator.multiply(2,1) == 2
